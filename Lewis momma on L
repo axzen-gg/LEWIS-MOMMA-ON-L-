@@ -1,4 +1,6 @@
-
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
 --[[
 	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
 	MODIFIED: Rebranded to LEWIS, Devil Vibe UI, Cinematic Intro, Custom Input Fields.
@@ -23,14 +25,14 @@ local pattern = "_"
 -- RO MESSAGE LIST (REBRANDED TO LEWIS)
 --------------------------------------------------
 local roMessages = {
-	"TMX MEH FIRE 🔥","FYTER BNEGA?🤣","BCHE LEWIS ON TOP👑","TMX MEH Rocket 🚀",
-	"TMX MEH electricity ⚡","TMX meh SURF 😆","Leave marde 🤣","LEWIS ON TOP BOL 🔥",
-	"TMX MEH BOOK 📚","Pil gya itni jaldi 🤣","Itna lallu fyter🤧","Cvr bye LEWIS👑",
+	"LEAK BY AXZEN👽🔱","FYTER BNEGA?🤣","BCHE LEWIS ON TOP👑","TMX MEH Rocket 🚀",
+	"TMX MEH electricity ⚡","TMX meh SURF 😆","Leave marde 🤣","LEWIS ON L AXZEN ON TOP",
+	"TMX MEH BOOK 📚","Pil gya itni jaldi 🤣","Itna lallu fyter🤧","VIRAAT ON TOP 🗿🔱",
 	"Tmx meh petroleum","Dffn?😔","Bhag ja bache😹","Tmx meh dino 😈",
 	"TMX MEH MAJDOOR","TMX MEH SCRIPT","TMX MEH TREE🌴","TMX MEH CLIP",
 	"Tmx Allu🥔","TMX MEH GOAT","TMX MEH BLAZE","TMX MEH SALT",
 	"TMX MEH ROD","TMX MEH UNIVERSE","TMX MEH SOFA",
-	"TMX MEH KEYBOARD","TMX MEH SNIPER","LEWIS ON TOP👑",
+	"TMX MEH KEYBOARD","TMX MEH SNIPER","LEWIS ON L👑",
 	"TMX MEH MONITOR","TMX MEH TABLE","TMX MEH GALAXLY",
 	"TMX MEH MUSHROOM","TMX MEH STONE","TMX MEH BOT",
 	"TMX MEH TAB","TMX MEH CYLINDER","TMX MEH KING",
@@ -101,8 +103,7 @@ introFrame.ZIndex = 100
 local introText = Instance.new("TextLabel", introFrame)
 introText.Size = UDim2.new(1, 0, 1, 0)
 introText.BackgroundTransparency = 1
-introText.Text = "L E W I S   I S  A B H A D W A : AXZEN PAPA ON TOP
-.LEWIS ON L🥵."
+introText.Text = "L E W I S   I S   BHADWA LEAK BY : AXZEN . . ."
 introText.Font = Enum.Font.Creepster
 introText.TextSize = 45
 introText.TextColor3 = Color3.fromRGB(180, 0, 0)
@@ -133,7 +134,7 @@ mainStroke.Transparency = 0.2
 local titleText = Instance.new("TextLabel", mainFrame)
 titleText.Size = UDim2.new(1, 0, 0, 40)
 titleText.BackgroundTransparency = 1
-titleText.Text = "L E W I S"
+titleText.Text = "L E W I S on L😂"
 titleText.Font = Enum.Font.GothamBlack
 titleText.TextSize = 22
 titleText.TextColor3 = Color3.fromRGB(200, 20, 20)
